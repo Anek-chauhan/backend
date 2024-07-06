@@ -2,9 +2,10 @@
   "name": "project-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "style.js",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
-    "start": "style.js"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
@@ -14,6 +15,7 @@
   "author": "Anek",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.1.4"
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.2"
   }
 }
